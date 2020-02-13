@@ -1,18 +1,20 @@
 # FastAPI
 
-## View
+## Document
 
-### [api route](https://fastapi-calender.herokuapp.com/)
+### API
+[API ROOT](https://fastapi-calender.herokuapp.com/)
+[API DOCUMENT](https://fastapi-calender.herokuapp.com/docs)
 ```sh
-open https://fastapi-calender.herokuapp.com/
+$ open https://fastapi-calender.herokuapp.com/
 ```
 
-### check local
+### local run
 ```sh
-uvicorn --port 5000 --host 127.0.0.1 app.main:app --reload
+$ uvicorn --port 5000 --host 127.0.0.1 app.main:app --reload
 ```
 
 ### view log
 ```sh
-heroku logs --tail
+$ heroku logs --tail
 ```
